@@ -1,0 +1,35 @@
+{
+  "name": "lsk-football-career-game",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fetch:data": "tsx scripts/fetch-wikidata.ts",
+    "normalize:data": "tsx scripts/normalize-players.ts",
+    "build:pools": "tsx scripts/build-squad-pools.ts",
+    "check:career": "tsx scripts/check-career.ts",
+    "build:data": "tsx scripts/build-all.ts",
+    "enrich:lsk": "tsx scripts/enrich-lsk-with-wikidata.ts",
+    "apply:names": "tsx scripts/apply-enriched-names-to-game-data.ts",
+    "apply:names:dry": "tsx scripts/apply-enriched-names-to-game-data.ts --dry-run",
+    "resolve:names": "tsx scripts/resolve-missing-chinese-names.ts",
+    "resolve:names:dry": "tsx scripts/resolve-missing-chinese-names.ts --dry-run"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.1",
+    "@types/react-dom": "^19.0.2",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.3"
+  }
+}

@@ -1,0 +1,28 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="62%">
+      <stop offset="0" stop-color="#8EE8FF"/>
+      <stop offset="0.38" stop-color="#2B8CFF"/>
+      <stop offset="1" stop-color="#071B2D"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="35" y1="24" x2="145" y2="156" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4A6"/>
+      <stop offset="0.48" stop-color="#FFD76A"/>
+      <stop offset="1" stop-color="#D9A441"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="38" y1="142" x2="150" y2="82" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF7A8A"/>
+      <stop offset="1" stop-color="#FF5FA2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="90" cy="90" r="84" fill="url(#glow)"/>
+  <circle cx="90" cy="90" r="76" fill="#08233A" stroke="url(#gold)" stroke-width="8"/>
+  <path d="M29 111C49 98 65 101 82 112C101 124 121 125 151 103" stroke="#8EE8FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M30 128C50 116 68 119 86 130C104 141 125 142 151 123" stroke="url(#pink)" stroke-width="7" stroke-linecap="round"/>
+  <path d="M45 57C58 41 75 32 91 31C112 29 131 41 140 59C128 53 116 50 104 52C86 55 69 65 55 80L45 57Z" fill="url(#gold)"/>
+  <text x="90" y="99" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="52" font-weight="900" letter-spacing="2" fill="#FFFFFF">LSK</text>
+  <text x="90" y="122" text-anchor="middle" font-family="Arial Rounded MT Bold, Arial, sans-serif" font-size="13" font-weight="800" fill="#FFD76A">DREAM XI</text>
+  <circle cx="50" cy="42" r="7" fill="#FF5FA2"/>
+  <circle cx="137" cy="43" r="5" fill="#9EF5D2"/>
+  <circle cx="145" cy="142" r="6" fill="#FFD76A"/>
+</svg>
